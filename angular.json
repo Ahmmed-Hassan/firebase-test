@@ -97,6 +97,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "firebase-test:build:production",
+            "firebaseProject": "management-system-eeb11",
+            "firebaseHostingSite": "management-system-eeb11"
+          }
         }
       }
     }

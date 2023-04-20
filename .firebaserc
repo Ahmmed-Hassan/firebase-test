@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "management-system-eeb11": {
+      "hosting": {
+        "firebase-test": [
+          "management-system-eeb11"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "management-system-eeb11"
+  }
+}
